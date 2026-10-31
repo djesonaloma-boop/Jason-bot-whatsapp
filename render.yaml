@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: jason-bot-whatsapp
+    runtime: node
+    plan: starter
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: BOT_NAME
+        value: Jason Bot
+      - key: OWNER_NUMBER
+        value: "243847500590"
+      - key: AI_URL
+        value: https://davbot-v3.vercel.app/api/intelligence-artificielle/ask
+      - key: PAIRING_CODE
+        value: "true"
