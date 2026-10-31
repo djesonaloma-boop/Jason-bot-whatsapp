@@ -1,0 +1,22 @@
+{
+  "name": "jason-bot-whatsapp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Jason Bot WhatsApp - assistant IA de Jason Aloma",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pino": "^9.6.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
